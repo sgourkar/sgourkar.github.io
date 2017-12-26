@@ -1,4 +1,5 @@
 /* MENU CONTENT */
+
 .menu ul {
   box-shadow: 0 8px 20px -6px gray;
   text-decoration: none;
@@ -46,6 +47,7 @@
 }
 
 /* ARTICLE CONTENT */
+
 .main-container {
   max-width: 900px;
   margin: auto;
@@ -62,7 +64,6 @@
 }
 
 .s01 img {
-  /* max-width: 35%; */
   width: 30vw;
   border: 4px;
   padding: 10px;
@@ -72,7 +73,6 @@
 }
 
 .s02 img {
-  /* max-width: 35%; */
   width: 30vw;
   border: 4px;
   padding: 10px;
@@ -82,7 +82,6 @@
 }
 
 .s03 img {
-  /* max-width: 90%; */
   width: 70vw;
   box-shadow: 0 6px 40px -7px gray;
   border: 4px;
