@@ -128,7 +128,7 @@ div h2 {
 }
 
 .p0 {
-  background-image: url("rescusense.png");
+  background-image: url("./Main/rescusense.png");
   background-position: center;
   background-size: 99%;
   border-radius: 4px;
@@ -136,13 +136,13 @@ div h2 {
 }
 
 .p1 {
-  background-image: url("pic1.jpg");
+  background-image: url("./Main/pic1.jpg");
   border-radius: 4px;
   opacity: 0.6;
 }
 
 .p2 {
-  background-image: url("mrdt.jpg");
+  background-image: url("./Main/mrdt.jpg");
   background-position: center;
   background-size: 40%;
   border-radius: 4px;
@@ -150,13 +150,13 @@ div h2 {
 }
 
 .p3 {
-  background-image: url("pic3.jpg");
+  background-image: url("./Main/pic3.jpg");
   border-radius: 4px;
   opacity: 0.6;
 }
 
 .p4 {
-  background-image: url("led_sign.jpg");
+  background-image: url("./Main/led_sign.jpg");
   background-position: center;
   background-size: 99%;
   border-radius: 4px;
