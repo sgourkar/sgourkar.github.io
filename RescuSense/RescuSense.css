@@ -46,6 +46,42 @@
   transform: scaleX(1);
 }
 
+h2 {
+  font-family: "Roboto Condensed";
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: center;
+}
+
+.intro p {
+  max-width: 850px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #323434;
+  text-align: justify;
+  margin: auto;
+}
+
+.intro li {
+  font-family: "Roboto Condensed";
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  list-style: none;
+  font-size: 20px;
+  grid-column: 1 / span 2;
+  padding: 20px;
+}
+
+.intro a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px darkgray;
+  padding: 5px;
+  background-color: rgba(21, 101, 192, 1);
+  box-shadow: 0 6px 30px -7px gray;
+}
+
 article {
   max-width: 850px;
   font-family: "Roboto";
@@ -62,29 +98,32 @@ article {
 .one {
   grid-column: 1;
   grid-row: 1;
+  margin:auto;
 }
 
 .one img {
-  width: 25vw;
+  max-width: 100%;
   border: 4px;
   padding: 10px;
   box-shadow: 0 6px 30px -7px gray;
   margin-right: 20px;
-  justify-items: center;
+  /* justify-items: center; */
 }
 
 .two {
   grid-column: 2;
   grid-row: 1;
+  margin:auto;
 }
 
 .three {
   grid-column: 2;
   grid-row: 2;
+  margin:auto;
 }
 
 .three img {
-  width: 25vw;
+  max-width: 100%;
   border: 4px;
   padding: 10px;
   box-shadow: 0 6px 30px -7px gray;
@@ -94,10 +133,11 @@ article {
 .four {
   grid-column: 1;
   grid-row: 2;
+  margin: auto;
 }
 
 .five img {
-  width: 25vw;
+  max-width: 100%;
   border: 4px;
   padding: 10px;
   box-shadow: 0 6px 30px -7px gray;
@@ -109,10 +149,11 @@ article {
 .six {
   grid-column: 2;
   grid-row: 3;
+  margin: auto;
 }
 
 .seven img {
-  width: 25vw;
+  max-width: 100%;
   border: 4px;
   padding: 10px;
   box-shadow: 0 6px 30px -7px gray;
@@ -124,10 +165,11 @@ article {
 .eight {
   grid-column: 1;
   grid-row: 4;
+  margin: auto;
 }
 
 .nine img {
-  width: 25vw;
+  max-width: 100%;
   border: 4px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -141,6 +183,7 @@ article {
 .ten {
   grid-column: 2;
   grid-row: 5;
+  margin:auto;
 }
 
 article figcaption {
@@ -149,22 +192,4 @@ article figcaption {
   color: gray;
   display: block;
   padding-top: 5px;
-}
-
-article li {
-  text-decoration: none;
-  text-align: center;
-  margin: auto;
-  list-style: none;
-  font-size: 20px;
-  grid-column: 1 / span 2;
-}
-
-article a {
-  text-decoration: none;
-  color: black;
-  border: solid 1px darkgray;
-  padding: 5px;
-  background-color: rgba(239, 83, 80, 0.5);
-  box-shadow: 0 6px 30px -7px gray;
 }
